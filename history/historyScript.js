@@ -27,7 +27,7 @@ searchHistory.forEach((search, index) => {
   // Add event listener to historyText element
   historyText.addEventListener("click", function () {
     // Navigate to the home page
-    window.location.assign("/");
+     window.location.pathname = "/index.html";
   });
 
   historyItem.appendChild(historyText);
@@ -44,5 +44,5 @@ clearHistoryBtn.addEventListener("click", () => {
 
 // Add an event listener to the home button to redirect the user to the home page
 homeBtn.addEventListener("click", function () {
-  window.location.assign("/");
+   window.location.pathname = "/index.html";
 });

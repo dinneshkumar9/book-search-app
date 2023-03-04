@@ -96,5 +96,5 @@ function saveSearch(query) {
 }
 //History button takes us to History Page
 historyBtn.addEventListener("click", function () {
-  window.location.assign("/history/historyIndex.html");
+  window.location.pathname = "/history/historyIndex.html";
 });
