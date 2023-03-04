@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Store</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <p class="heading">Book Store App</p>
+    </header>
+    <hr />
+    <section>
+      <form id="search-form">
+        <label class="heading" for="search-input"
+          >Search For Books By Their Name</label
+        ><br /><br />
+        <input
+          type="text"
+          id="search-input"
+          name="search-input"
+          placeholder="🔍 Search..."
+          required
+        /><br /><br />
+        <div>
+          <button id="searchBtn" type="submit">Search Now!</button>
+          <button id="historyBtn" type="button">History Page</button>
+        </div>
+      </form>
+    </section>
+    <section class="display books section">
+      <div id="results-header"></div>
+      <div id="results-container"></div>
+    </section>
+    <script src="/script.js"></script>
+  </body>
+</html>
